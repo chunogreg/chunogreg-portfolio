@@ -11,24 +11,26 @@ function App() {
     backgroundImage: `url(${bgImage})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "100vh",
+    minHeight: "100vh",
     width: "100%",
     margin: 0,
     padding: 0,
-    backgroundAttachment: "fixed",
+    // backgroundAttachment: "fixed",
     backgroundRepeat: "no-repeat",
   };
   return (
     <div style={bgStyle}>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
