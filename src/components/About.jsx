@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div>
+    <div style={{ marginLeft: "30px" }}>
       <h2>About</h2>
       <p>
         I am a Backend Developer with experience building secure and scalable

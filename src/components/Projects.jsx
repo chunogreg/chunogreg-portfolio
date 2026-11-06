@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div>
+    <div style={{ marginLeft: "30px" }}>
       <h2>Projects</h2>
       <h3>Team Task Management API</h3>
       <p>Secure backend API with authentication and DevSecOps pipeline.</p>

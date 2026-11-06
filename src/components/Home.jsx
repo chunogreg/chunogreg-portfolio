@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div style={{ marginLeft: "30px" }}>
       <h1>Gregory Aniobi</h1>
       <p>Backend Developer (Node.js) | API Development | Secure System</p>
       <p>
